@@ -6,6 +6,8 @@ SQL Utils: A collection of production-ready, vendor-agnostic SQL patterns and sc
 Check out our deep dive on how to use these utilities in production:
 * [SQL : Handling Divide by Zero Errors](https://github.com/Select-Distinct/SQL-Snippets/blob/main/Divide-by-zero-errors.md)
 * **Related Guide:** [Divide by Zero Errors Article](https://www.selectdistinct.co.uk/2023/11/01/divide-by-zero-errors/)
+* [SQL : Group by ROLLUP](https://github.com/Select-Distinct/SQL-Snippets/blob/main/Group-by-ROLLUP.md))
+* **Related Guide:** [Group by ROLLUP Article](https://www.selectdistinct.co.uk/2023/08/23/group-by-rollup-in-sql-server/)
 
 ---
 
