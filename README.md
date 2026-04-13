@@ -11,8 +11,8 @@ Check out our deep dive on how to use these utilities in production:
 ## 🤝 Need Professional SQL Support?
 Setting up SQL scripts is just the beginning. At **Select Distinct**, we help businesses turn data into a competitive advantage through expert consulting and mentoring.
 
-* **SQL Consulting** [View our Services](https://www.selectdistinct.co.uk/business-intelligence-expert-services/sql-server-consulting/)
-* **BigQuery & Data Warehousing:** [Expert Solutions](https://www.selectdistinct.co.uk/technologies/google-bigquery/)
+* **SQL Consulting** [View our SQL Consulting Services](https://www.selectdistinct.co.uk/business-intelligence-expert-services/sql-server-consulting/)
+* **Data Warehousing:** [Expert Solutions](https://www.selectdistinct.co.uk/business-intelligence-expert-services/data-warehouse-consultancy/)
 * **SQL Glossary:** [Read our SQL Glossary](https://www.selectdistinct.co.uk/sql-glossary/)
 
 **Ready to solve your data challenges?** 👉 [Book a Free 30-Minute Consultation](https://www.selectdistinct.co.uk/contact/)
