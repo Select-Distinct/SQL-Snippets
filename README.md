@@ -4,7 +4,8 @@ SQL Utils: A collection of production-ready, vendor-agnostic SQL patterns and sc
 ---
 ## 📖 Tutorials & Explanations
 Check out our deep dive on how to use these utilities in production:
-* [SQL: Handling Divide by Zero Errors](https://www.selectdistinct.co.uk/2023/11/01/divide-by-zero-errors/)
+* [SQL : Handling Divide by Zero Errors](https://github.com/Select-Distinct/SQL-Snippets/blob/main/Divide-by-zero-errors.md)
+* [Read the Full guide](https://www.selectdistinct.co.uk/2023/11/01/divide-by-zero-errors/)
 
 ---
 
