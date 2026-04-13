@@ -1,28 +1,22 @@
-# Handling Divide by Zero errors in SQL
+# Handling Divide by Zero Errors in SQL
 
-Here are some of the key ways to avoid being tripped up by Divide by zero errors
+## 1. The CASE Statement Pattern
+```sql
+SELECT 
+    Numerator, 
+    Denominator, 
+    CASE 
+        WHEN Denominator = 0 THEN 0 
+        ELSE Numerator / Denominator 
+    END AS CalculatedRatio 
+FROM your_table;
+```
 
+## 2. The NULLIF Pattern
 
--- ==========================================
--- Select Distinct SQL Library
--- Pattern: case statement to fix Divide by zero in SQL
--- Function: CASE()
--- ==========================================
-
-select Numerator, Denominator,
-Case  
-  When Denominator = 0 then 0
-  else Numerator / Denominator
-
-
-
-  -- ==========================================
--- Select Distinct DAX Library
--- Pattern: Percentage of Total (Specific Filter)
--- Function: CALCULATE() & DIVIDE()
--- ==========================================
-
-select Numerator, Denominator, 
-Numerator / NULLIF(Denominator,0) as Measure 
-from       
-  (SELECT 10 as Numerator, 0 as Denominator
+```sql
+SELECT 
+    Numerator, 
+    Denominator, 
+    Numerator / NULLIF(Denominator, 0) AS Measure 
+FROM (SELECT 10 AS Numerator, 0 AS Denominator) AS example;
